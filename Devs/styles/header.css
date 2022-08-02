@@ -1,0 +1,42 @@
+.cabeçalho {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em;
+
+}
+
+.container {
+    display: flex;
+    align-items: center;
+}
+
+.container__imagem {
+    padding: 2em;
+    padding-left: 3em;
+    margin-left: 2em;
+}
+
+.lista-menu {
+    display: flex;
+    align-items: center;
+    padding-left: 12em;
+    margin-left: 11em;
+}
+
+.lista-menu__link {
+    color: var(--cinza);
+    padding-right: 3em;
+    text-decoration: none;
+}
+
+.botão__menu {
+    display: block;
+    color: var(--cor-de-fundo);
+    background-color: var(--vermelho-vinho);
+    padding: 1em;
+    margin-right: 8em;
+    border-radius: 8px;
+    line-height: 24px;
+    text-decoration: none;
+} 

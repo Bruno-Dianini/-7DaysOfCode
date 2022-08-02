@@ -1,0 +1,33 @@
+.areas {
+    display: flex;
+    flex-direction: column;
+    align-items:  center;
+    padding-right: 50em;
+}
+
+.ares__box {
+    margin: 6em 0;
+}
+
+.areas__titulo {
+    padding-right: 1em;
+    margin: 2em 0;
+    text-align: left;
+    font-size: 20px;
+    color: var(--titulo-secundario)
+}
+
+.areas__subtitulo {
+    padding:  1.5em;
+    font-size: 18px;
+    color: var(--titulo-secundario);
+}
+
+.areas__texto {
+    padding: 1.5em;
+    color: var(--cinza);
+}
+.areas__conteudo {
+    display: flex;
+    flex-direction: row;
+}

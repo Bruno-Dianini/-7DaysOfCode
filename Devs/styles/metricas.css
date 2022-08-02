@@ -1,0 +1,30 @@
+.metricas-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 7rem;
+}
+
+.metricas__box {
+    margin: 2em 4em 2em 4em;
+}
+
+.metricas__titulo{
+    font-size: 60px;
+    font-weight: 600;
+    color: var(--vermelho-vinho);
+    margin: 0.2em;
+}
+
+.metricas__subtitulo {
+    font-size: 18px;
+    color: var(--titulo-secundario);
+    margin: 1em;
+}
+
+.metricas__texto {
+    font-weight: 400;
+    color: var(--cinza);
+    padding-left: 1em;
+   
+}

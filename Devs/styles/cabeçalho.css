@@ -1,0 +1,26 @@
+.cabeçalho__2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5em;
+    padding-left: 23%;
+    padding-right: 23%;
+}
+
+.cabeçalho__t1 {
+    color: var(--vermelho-vinho);
+    font-weight: 600;
+}
+
+.cabeçalho__t2 {
+    color: var(--titulo-secundario);
+    font-size: 48px;
+    font-weight: 600;
+    margin: 1em;
+}
+
+.cabeçalho__texto {
+    color: var(--cinza);
+    font-size: 20px;
+    text-align: center;
+}
